@@ -51,25 +51,26 @@ h2 {
 	animation-duration: 1.5s;
 	animation-name: bounceInDown;
 }
-h3{
-	font-size: 14px;    /* 內文的字體大小設為14px*/
-	color: #E4EEF7;     /* 文字顏色設定*/
-	font-weight: 100;   /* 文字粗細設定*/
+h3 {
+	font-size: 16px;/* 內文的字體大小設為14px*/
+	color: rgb(105, 12, 234);/* 文字顏色設定*/
+	font-weight: 400;/* 文字粗細設定*/
+	background-color: #34d01fd1;
+	width: 250px ;
+	margin:10px auto;
+	border-radius: 75px;
 	animation-duration: 2s;
 	animation-name: bounceInDown;
 }
+
 /* 超連結 */
 a{
 	color: #3a07f0;        /* 超連結屬性的文字顏色設定*/
 	
 }
-img{
-	animation-duration: 1s;
-	animation-name: tada;
-	border-radius: 50px; 
-}
+
 a:hover{
-	color: #048FC1;        /* 超連結『滑鼠滑過』文字顏色設定*/
+	color: #4cc1eb;        /* 超連結『滑鼠滑過』文字顏色設定*/
 	text-decoration: none; /* 超連結『滑鼠滑過』文字無底線裝飾效果*/
 }
 /* 導覽列 */
@@ -94,4 +95,26 @@ a:hover{
 .navigation ul li a:hover {
     color: #62d5e8;             /* 導覽列超連結『滑鼠滑過』文字顏色設定*/
     text-decoration: underline; /* 導覽列超連結『滑鼠滑過』文字有底線裝飾效果*/
+}
+
+#tabs {
+	width: 50%;
+	/* tabs 寬度縮小為版面  */
+	margin: 0px auto;
+	/* tabs 置中對齊 */
+}
+
+.ui-widget-content {
+	border: 1px solid #aaaaaa;
+	/* tabs 邊框設為寬1px灰色的實線 ，可自行修改 */
+	background: rgba(172, 217, 224, 0.6);
+	/* tabs 底色 設定為淺藍色，不透明度60%*/
+	color: #222222;
+	/* tabs 文字的顏色*/
+}	
+
+img{
+	animation-duration: 1s;
+	animation-name: tada;
+	border-radius: 50px; 
 }

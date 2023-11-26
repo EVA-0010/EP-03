@@ -9,11 +9,6 @@
         <meta name="description" content="極樂淨土歌詞"> <!-- 提供搜尋引擎關於網頁頁面內的重要資訊-->
         <link href="style.css" rel="stylesheet">  <!-- 連結到style.css設定視覺規劃-->
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/><!--特效東東區↓-->
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-        <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script><!--特效東東區↑-->
-        
     </head> 
 <!-- head標頭資訊設定結束
 ================================================== -->   
@@ -24,8 +19,8 @@
          <!-- nav導覽列設定開始-->
 	<nav class="navigation"> <!-- nav設定類別（class)為navigation-->
           <ul> 
-            <li><a href="EPA.html">極樂淨土</a></li>
-            <li><a href="EPB.html">殘酷天使的行動綱領</a></li>
+            <li><a href="EPA.html"><i class="fas fa-chess-queen"></i> 極樂淨土</a></li>
+            <li><a href="EPB.html"><i class="fas fa-dragon"></i> 殘酷天使的行動綱領</a></li>
           </ul>
 	</nav>  
 	<!-- nav導覽列設定結束--> 
@@ -35,7 +30,7 @@
 
         <img src="https://upload.wikimedia.org/wikipedia/zh/2/2e/Yakusoku_-Promise_code-.jpg">
         <br> <!--放置圖片-->
-    
+     
 <b>月明り昇る刻 灯る赤提灯</b><br>
 tsu ki a ka ri no bo ru ko ro to mo ru a ka cho- chin <br>
 <b>祭囃子の合図 ふわり 蝶が誘い出す</b><br>
@@ -94,14 +89,31 @@ ko yo i to mo ni a- ku ru i za ki<br>
 ko yo i a na ta to ku ru i za ki<br>
 <p></p>
 
+<!-- tabs設定開始-->
+<div id="tabs">
+    <ul>
+        <li><a href="#tabs-1"><i class="fas fa-calendar"></i> 歌詞</a></li> <!-- tabs標題1，加入Font Awesome-->
+        <li><a href="#tabs-2"><i class="fas fa-book"></i> 維基百科</a></li> <!-- tabs標題2，加入Font Awesome-->
+        <li><a href="#tabs-3"><i class="fas fa-eye-dropper"></i> 感想</a></li> <!-- tabs標題3，加入Font Awesome-->
+    </ul>
+    <div id="tabs-1">
+        <p><a href="https://www.google.com/search?q=%E6%A5%B5%E6%A8%82%E6%B7%A8%E5%9C%9F%E7%9A%84%E6%AD%8C%E8%A9%9E&sca_esv=570671288&rlz=1C1CHZO_zh-TWTW955TW956&sxsrf=AM9HkKm0uUV4Xzdu4F8-zytOzqboZwFXRw%3A1696431516023&ei=nH0dZaldrd7aug_iwrNY&ved=2ahUKEwj5vPSM1tyBAxXwmVYBHT5BDzgQyNoBKAB6BAgIEAY&uact=5&oq=%E6%A5%B5%E6%A8%82%E6%B7%A8%E5%9C%9F%E7%9A%84%E6%AD%8C%E8%A9%9E&gs_lp=Egxnd3Mtd2l6LXNlcnAiFealteaogua3qOWcn-eahOatjOipnjIGEAAYBxgeSOl0UNlzWNlzcAB4AZABAJgBPaABeKoBATK4AQPIAQD4AQHCAgUQABiABOIDBBgAIEGIBgE&sclient=gws-wiz-serp&si=ALGXSlaN5Kq3zb7nlhCrU2k7ONB1amy1WejFwhXKPZb-BR61bzDneECxQYXj7ZeT9_yo6rjCGVcG0Mz13DqqImdS0d4MfoC4I8c_oW2uD-73N2MFNEs-TUgkcgGx3ApL2unpsrnet9rqRvMhIcN0B37llzxEPObPVbhexAc_0D6CUeQZ6rTbbaPBba-Y5tNPF6tru-eB4P71ofCOOupO-WKeAZgpwG7zPTNSdCrcop6dSqflLdl-Q9iOosgj2AKnU5U3U9XbezNpi0VILU72YobyVsLMnGP90WEoV3aiQOTyn2SvY22h67DeUkcspwMhPluIyvmlx1Opa9-Ezh_f5kyK_7mW1kM4mwHZwmUlAgeMJh81VgMAmKbyScdeLk_L_oG5SQSiEaAa41FphlwpFXIkutzq0S9kDXLffkI4OUSReB7YEcPJhy6uxHy5SqCXKyDQD5YsMqCpMyaUb6QOTVLBY8cUQq5ZxsVxW9YN9r_k4B5ZsqpYq2_S8M4KpaW7Q5ND-3pOq4lPF4Lu2Kos5TxbrRMnkPb5jnth_BWanvTZPPNE9rmLfr9t2DPbvRdtjOhZRAUr1VwTLSz3YmeZOmvmSymy3sC2HYSJy8MhiPcO3UiCKgCS_X1xjsS8IUfLq0IZq68rWwuoICeLX4J4Gm-dfm-rRGul_-q4Z5hqTAE_iuNjL_Uf7Y3dSnkBaaPY0WU2iZnbixz4pp7iTlCkngm3RBQxZP2WTWt9qPXU1S8DeUsuYB5njIfBGQQQvWFCEI5X_hY63rWCiZd-fckiuRzf1zF9MHPWnnab-T14VfpYZ_4E4lmzJ4Bu-XoAajcWUasRFn_zkIHZvg8iFtMp22n8iUBa8AECNBOR20_kubSHq9Od2Zg6w84XqDsvqQapJNL9hhqd2EUDqg50Pz--VSXfmIUPQ9_UUk8OZ4VPS_aaPMu3sDZdMNTkh9-HsXIhfw059RX3YNreXwdP0Ibns5mEYkrliidcbY2lX_Ig4q6GCVk4nVg4JPSIERDCB2E_WnA1MDWgMqyIpG6iazB6MSwGU2g0Z-JgJalLrqwOBkEsDTEfHouXMHoI_aZ1illT4kibpB0OItx1&ictx=1" target="_blank" rel="noopener noreferrer">歌詞</a></p>
+    </div>
+    <div id="tabs-2">
+        <p><a href="https://zh.wikipedia.org/zh-tw/%E6%9E%81%E4%B9%90%E5%87%80%E5%9C%9F_(%E6%AD%8C%E6%9B%B2)" target="_blank" rel="noopener noreferrer">維基百科</a></p>
+    </div>
+    <div id="tabs-3">
+        <p>很好聽</p>
+    </div>
+</div>
+<br>
+<!-- tabs設定結束-->
+
         <!-- a 超連結設定，需搭配href，target="_blank開啟新視窗--> 
-	<a href="https://www.youtube.com/watch?v=BEULybZnLO8" target="_blank" rel="noopener noreferrer">點擊聽歌</a>
+	<a href="https://www.youtube.com/watch?v=BEULybZnLO8" target="_blank"><i class="fas fa-music"></i> 點擊聽歌</a>
     <br>
-    <a href="https://www.youtube.com/watch?v=jZS-2zgnEKE" target="_blank" rel="noopener noreferrer">中日歌詞+羅馬拼音</a>
+    <a href="https://www.youtube.com/watch?v=jZS-2zgnEKE" target="_blank"><i class="fas fa-music"></i> 中日歌詞+羅馬拼音</a>
     <br>
-    <a href="https://www.google.com/search?q=%E6%A5%B5%E6%A8%82%E6%B7%A8%E5%9C%9F%E7%9A%84%E6%AD%8C%E8%A9%9E&sca_esv=570671288&rlz=1C1CHZO_zh-TWTW955TW956&sxsrf=AM9HkKm0uUV4Xzdu4F8-zytOzqboZwFXRw%3A1696431516023&ei=nH0dZaldrd7aug_iwrNY&ved=2ahUKEwj5vPSM1tyBAxXwmVYBHT5BDzgQyNoBKAB6BAgIEAY&uact=5&oq=%E6%A5%B5%E6%A8%82%E6%B7%A8%E5%9C%9F%E7%9A%84%E6%AD%8C%E8%A9%9E&gs_lp=Egxnd3Mtd2l6LXNlcnAiFealteaogua3qOWcn-eahOatjOipnjIGEAAYBxgeSOl0UNlzWNlzcAB4AZABAJgBPaABeKoBATK4AQPIAQD4AQHCAgUQABiABOIDBBgAIEGIBgE&sclient=gws-wiz-serp&si=ALGXSlaN5Kq3zb7nlhCrU2k7ONB1amy1WejFwhXKPZb-BR61bzDneECxQYXj7ZeT9_yo6rjCGVcG0Mz13DqqImdS0d4MfoC4I8c_oW2uD-73N2MFNEs-TUgkcgGx3ApL2unpsrnet9rqRvMhIcN0B37llzxEPObPVbhexAc_0D6CUeQZ6rTbbaPBba-Y5tNPF6tru-eB4P71ofCOOupO-WKeAZgpwG7zPTNSdCrcop6dSqflLdl-Q9iOosgj2AKnU5U3U9XbezNpi0VILU72YobyVsLMnGP90WEoV3aiQOTyn2SvY22h67DeUkcspwMhPluIyvmlx1Opa9-Ezh_f5kyK_7mW1kM4mwHZwmUlAgeMJh81VgMAmKbyScdeLk_L_oG5SQSiEaAa41FphlwpFXIkutzq0S9kDXLffkI4OUSReB7YEcPJhy6uxHy5SqCXKyDQD5YsMqCpMyaUb6QOTVLBY8cUQq5ZxsVxW9YN9r_k4B5ZsqpYq2_S8M4KpaW7Q5ND-3pOq4lPF4Lu2Kos5TxbrRMnkPb5jnth_BWanvTZPPNE9rmLfr9t2DPbvRdtjOhZRAUr1VwTLSz3YmeZOmvmSymy3sC2HYSJy8MhiPcO3UiCKgCS_X1xjsS8IUfLq0IZq68rWwuoICeLX4J4Gm-dfm-rRGul_-q4Z5hqTAE_iuNjL_Uf7Y3dSnkBaaPY0WU2iZnbixz4pp7iTlCkngm3RBQxZP2WTWt9qPXU1S8DeUsuYB5njIfBGQQQvWFCEI5X_hY63rWCiZd-fckiuRzf1zF9MHPWnnab-T14VfpYZ_4E4lmzJ4Bu-XoAajcWUasRFn_zkIHZvg8iFtMp22n8iUBa8AECNBOR20_kubSHq9Od2Zg6w84XqDsvqQapJNL9hhqd2EUDqg50Pz--VSXfmIUPQ9_UUk8OZ4VPS_aaPMu3sDZdMNTkh9-HsXIhfw059RX3YNreXwdP0Ibns5mEYkrliidcbY2lX_Ig4q6GCVk4nVg4JPSIERDCB2E_WnA1MDWgMqyIpG6iazB6MSwGU2g0Z-JgJalLrqwOBkEsDTEfHouXMHoI_aZ1illT4kibpB0OItx1&ictx=1" target="_blank" rel="noopener noreferrer">歌詞</a>
-    <br>
-    <a href="https://zh.wikipedia.org/zh-tw/%E6%9E%81%E4%B9%90%E5%87%80%E5%9C%9F_(%E6%AD%8C%E6%9B%B2)" target="_blank" rel="noopener noreferrer">維基百科</a>
     <p></p>
     </main>
 
@@ -114,4 +126,42 @@ ko yo i a na ta to ku ru i za ki<br>
     <!-- footer頁尾設定結束-->
 
 </body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/><!--特效東東區↓-->
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script> 
+        <!-- 連結到fontawesome圖示資料庫-->
+
+        <!--jQuery 語法-->
+        <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"> -->
+        <!-- <title>jQuery UI Tabs - Default functionality</title> -->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <!-- 連結到jQuary資料庫-->
+
+        <link href="style.css" rel="stylesheet">
+        <!-- 連結到style.css設定視覺規劃，將原本上方的style.css，移到jquery-ui.css下方，css設定，以讀取最後的設定為主。-->
+        
+        <!-- <script src="http://code.jquery.com/jquery-1.10.2.js"></script> --> 
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <!-- 連結到jQuary資料庫-->
+
+        <!-- <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script> -->
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <!-- 連結到jQuary資料庫-->
+
+        <script>  //<!--加入 jQuary淡入語法-->
+                $(function () {
+                    $("main").hide();
+                    $("main").fadeIn(2000);
+                });
+        </script>
+        <script>  //<!--加入 jQuary tabs語法-->
+                $(function () {
+                    $("#tabs").tabs();
+                });
+        </script><!--特效東東區↑-->
+
 </html>
