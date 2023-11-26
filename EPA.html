@@ -163,6 +163,30 @@ ko yo i a na ta to ku ru i za ki<br>
                     $("#tabs").tabs();
                 });
                 
-        </script><!--特效東東區↑-->
+        </script>
+        <script>
+            $('img').on('click', function () {
+                console.log(this);
+                $(this).toggleClass('animate__animated animate__flip');
+            });
+            
+            $('footer').on('click', function () {
+                console.log(this);
+                $(this).toggleClass('animate__animated animate__heartBeat');
+            });
+    
+            $('h1').on('click', function () {
+                console.log(this);
+                $(this).toggleClass('animate__animated animate__bounceOutDown');
+            });
+            $('h2').on('click', function () {
+                console.log(this);
+                $(this).toggleClass('animate__animated animate__bounceOutDown');
+            });
+            $('main').on('click', function () {
+                console.log(this);
+                $(this).toggleClass('animate__animated animate__rotateOut');
+            });
+            </script><!--特效東東區↑-->
 
 </html>

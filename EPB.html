@@ -161,5 +161,32 @@ sho u ne n yo　shi n wa ni na re<br>
                     $("#tabs").tabs();
                 });
         </script>
-        <!--特效東東區↑-->
+        <script>
+        $('img').on('click', function () {
+            console.log(this);
+            $(this).toggleClass('animate__animated animate__heartBeat');
+        });
+        
+        $('footer').on('click', function () {
+            console.log(this);
+            $(this).toggleClass('animate__animated animate__heartBeat');
+        });
+
+        $('h1').on('click', function () {
+            console.log(this);
+            $(this).toggleClass('animate__animated animate__bounceOutDown');
+        });
+        $('h2').on('click', function () {
+            console.log(this);
+            $(this).toggleClass('animate__animated animate__bounceOutDown');
+        });
+        $('h3').on('click', function () {
+            console.log(this);
+            $(this).toggleClass('animate__animated animate__bounceOutDown');
+        });
+        $('main').on('click', function () {
+                console.log(this);
+                $(this).toggleClass('animate__animated animate__rotateOut');
+        });
+        </script><!--特效東東區↑-->
 </html>
